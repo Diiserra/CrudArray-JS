@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Tabela</title>
+</head>
+<body>
+    <h1 class="titulo">Cadastro de Alunos</h1>
+    <form class="campos">
+        <div class="block"><label>Matricula</label><br><input id="ipMat" type="text" value=""></div>
+        <div class="block"><label>Nome</label><br><input id="ipName" type="text" value=""></div>        
+        <div class="block"><label>Email</label><br><input id="ipEmail" type="text" value=""></div>    
+        <div class="block"><label>Curso</label><br><input id="ipCourse" type="text" value=""></div>
+    </form>
+    <div class="botoes">
+        <button id="btCadastro">Cadastrar</button>
+        <button id="btAtualizar">Atualizar</button>
+        <button id="btBuscar">Buscar</button>
+        <button id="btDeletar">Deletar</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <td>Matricula</td>
+                <td>Nome</td>
+                <td>Email</td>
+                <td>Curso</td>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            
+        </tbody>
+    </table>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
